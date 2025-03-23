@@ -1,4 +1,5 @@
-# the fastapi project with doecker,sqlmodel,sqlalchemy,pydantic and more . 
+# the fastapi project with docker,sqlmodel,sqlalchemy,pydantic and more ...
+
 
 
 
