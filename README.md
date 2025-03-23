@@ -1,3 +1,9 @@
+# the fastapi project with doecker,sqlmodel,sqlalchemy,pydantic and more . 
+
+
+
+
+
 ## Docker 
 
 - `docker build -t fast-api:v1 -f Dockerfile .`
