@@ -11,7 +11,14 @@ def read_events():
     }
 
 @router.get("/{event_id}")
-def event(event_id: int) -> EventSchema:
+def event(event_id: int) -> EventSchema :
+    """ 
+        give data of a specific event.
+        Args:
+            event_id (int): the id of the event.
+        Returns:
+            dict: the data of the event. 
+    """
     return {
         "id": event_id
     }
