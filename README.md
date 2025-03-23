@@ -1,7 +1,6 @@
 # the fastapi project with docker,sqlmodel,sqlalchemy,pydantic and more ...
 
-
-
+# all endpoint tests by 'requests' package (in nbs folder).
 
 
 
