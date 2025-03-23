@@ -1,4 +1,6 @@
 from fastapi import APIRouter
+from .schema import EventSchema
+
 
 router = APIRouter()
 
@@ -9,7 +11,7 @@ def read_events():
     }
 
 @router.get("/{event_id}")
-def event(event_id: int):
+def event(event_id: int) -> EventSchema:
     return {
         "id": event_id
     }
